@@ -1,0 +1,34 @@
+{
+  "name": "nozama",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.15.1",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.1",
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "node-cache": "^5.1.2",
+    "stripe": "^8.160.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "compile:sass": "node-sass client/src/sass/main.scss client/src/index.css",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "Avash",
+  "license": "ISC"
+}
