@@ -1,0 +1,94 @@
+.shipping {
+  &-container {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+  }
+
+  &-label {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  &-input {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: solid 1px $color-primary;
+    outline: none;
+    transition: all 0.2s;
+    border-radius: 5px;
+
+    &:focus {
+      background-color: lightgray;
+    }
+
+    &:invalid {
+      border: solid 1px red;
+    }
+  }
+
+  &-billing-layout {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+  }
+
+  &-item-name-heading {
+    color: $color-primary;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  &-item-qty-heading {
+    color: $color-primary;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  &-item-price-heading {
+    color: $color-primary;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  &-itemname {
+    padding-bottom: 0.5rem;
+  }
+  &-itemqty {
+    padding-bottom: 0.5rem;
+  }
+  &-itemprice {
+    padding-bottom: 0.5rem;
+  }
+
+  &-cardContainer {
+    width: 94%;
+    height: 4rem;
+    margin: 2rem auto;
+    border: solid 2px $color-primary;
+    border-radius: 5px;
+    padding: 1.1rem 1rem;
+    transition: all 0.2s;
+
+    &:hover {
+      border: solid 2px $color-primary-dark;
+    }
+
+    &:focus {
+      border: solid 2px $color-primary-dark;
+      background-color: lightgrey;
+    }
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .shipping {
+    text-align: center;
+
+    &-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+}
