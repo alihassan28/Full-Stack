@@ -88,19 +88,3 @@ To run the project on the local machine
 npm run dev
 ```
 
-## Some relevant links of the languages and tools I used
-
-1. [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-2. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-3. [SASS](https://sass-lang.com/documentation)
-4. [ReactJS](https://reactjs.org/docs/getting-started.html)
-5. [Redux](https://react-redux.js.org/)
-6. [Express](https://expressjs.com/)
-7. [Mongoose](https://mongoosejs.com/docs/)
-8. [MongoDB](https://docs.mongodb.com/)
-9. [NodeJS](https://nodejs.org/en/docs/)
-10. [Stripe](https://stripe.com/docs)
-
-## Authors
-
-- [@Avash Mitra](https://github.com/Avash027)
