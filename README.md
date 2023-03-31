@@ -51,16 +51,6 @@
 
 1. UI works for now at least, although I want to make it more polished. Maybe work on UI a bit later (After getting my hands on Figma).
 
-## Install this project
-
-```bash
-git clone https://github.com/Avash027/Nozama.git
-```
-
-```bash
-cd project
-```
-
 To install all the dependencies
 
 Run the command in the **root directory and the client directory**
